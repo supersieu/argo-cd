@@ -14,7 +14,7 @@ spec:
         app: airlux-api
     spec:
       containers:
-      - image: jausseran/cloud_api:latest
+      - image: supersieu/airlux-api:latest
         name: airlux-api
         ports:
         - containerPort: 80
