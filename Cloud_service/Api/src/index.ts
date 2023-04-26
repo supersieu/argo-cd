@@ -24,7 +24,7 @@ wss.on('connection', (ws) => {
         fsm.startFsm(); 
     });
 
-    ws.send('Welcome to the server! argocd---- ---     testaf        ');
+    ws.send('Welcome to the server! argocd!!!!!!!!!!!!!!!');
 });
 
 // let id = 9445166;
