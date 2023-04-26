@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: airlux-api
+spec:
+  replicas: 1
+  revisionHistoryLimit: 3
+  selector:
+    matchLabels:
+      app: airlux-api
+  template:
+    metadata:
+      labels:
+        app: airlux-api
+    spec:
+      containers:
+      - image: jausseran/cloud_api:latest
+        name: airlux-api
+        ports:
+        - containerPort: 80
