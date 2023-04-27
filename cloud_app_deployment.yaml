@@ -17,7 +17,7 @@ spec:
         app: airlux-api
     spec:
       containers:
-      - image: supersieu/airlux-api
+      - image: supersieu/airlux-api:${{ github.sha }}
         name: airlux-api
         ports:
         - containerPort: 80
