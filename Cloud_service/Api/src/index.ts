@@ -24,7 +24,7 @@ wss.on('connection', (ws) => {
         fsm.startFsm(); 
     });
 
-    ws.send('Welcome to the server!--------argocd ta grand merefezezfezf!!!!!!!!!!!!!!!');
+    ws.send('Welcome to the server!--------argocd ta grand mere la pute fezezfezf!!!!!!!!!!!!!!!');
 });
 
 // let id = 9445166;
